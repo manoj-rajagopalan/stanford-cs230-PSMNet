@@ -8,9 +8,9 @@ driving_disparity
 driving_frames_cleanpass
 
 # the disp folder of  Flything3D dataset
-frames_cleanpass  
+flyingthings3d_frames_disparity  
 # the image folder of  Flything3D dataset
-frames_disparity  
+flyingthings3d_frames_cleanpass  
 
 # the disp folder of Monkaa dataset
 monkaa_disparity  
