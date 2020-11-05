@@ -42,11 +42,11 @@ all_left_img, all_right_img, all_left_disp, test_left_img, test_right_img, test_
 
 TrainImgLoader = torch.utils.data.DataLoader(
          DA.myImageFloder(all_left_img,all_right_img,all_left_disp, True), 
-         batch_size= 5, shuffle= True, num_workers= 8, drop_last=False)
+         batch_size= 4, shuffle= True, num_workers= 8, drop_last=False)
 
 TestImgLoader = torch.utils.data.DataLoader(
          DA.myImageFloder(test_left_img,test_right_img,test_left_disp, False), 
-         batch_size= 5, shuffle= False, num_workers= 4, drop_last=False)
+         batch_size= 4, shuffle= False, num_workers= 4, drop_last=False)
 
 
 if args.model == 'stackhourglass':
