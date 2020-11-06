@@ -22,7 +22,7 @@ parser.add_argument('--loadmodel', default='./trained/pretrained_model_KITTI2015
 parser.add_argument('--model', default='stackhourglass',
                     help='select model')
 parser.add_argument('--maxdisp', default=192,
-                    help='maxium disparity')
+                    help='maxium disparity', type=int)
 parser.add_argument('--no-cuda', action='store_true', default=False,
                     help='enables CUDA training')
 parser.add_argument('--seed', type=int, default=1, metavar='S',
