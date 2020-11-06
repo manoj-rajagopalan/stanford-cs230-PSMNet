@@ -7,3 +7,12 @@ dataset/*_disparity
 
 # weights
 trained/
+
+# Editors
+.vscode/
+
+# outputs
+notebooks/
+output/
+submission/
+
