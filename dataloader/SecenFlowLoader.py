@@ -47,7 +47,7 @@ class myImageFloder(data.Dataset):
 
         if self.training:  
             w, h = left_img.size
-            th, tw = 256, 512
+            th, tw = 256, 256
 
             x1 = random.randint(0, w - tw)
             y1 = random.randint(0, h - th)
