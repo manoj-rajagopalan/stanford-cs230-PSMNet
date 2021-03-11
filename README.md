@@ -2,12 +2,10 @@
 
 This repository contains the code (in PyTorch) for "[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).
 
-## ※We are working on moving these codes to python 3.7 and torch 1.4.
 #### changelog
-2020/04/16: Update Test_img.py: now support torch 1.4 / torchvision 0.5.0 and python 3.7 for inference
+2020/12/20: Update PSMNet: now support torch 1.6.0 / torchvision 0.5.0 and python 3.7, Removed inconsistent indentation.
 
-2020/04/16: Update submission.py, SecenFlowLoader.py, readpfm.py, main.py
-
+2020/12/20: Our proposed Real-Time Stereo can be found here [Real-time Stereo](https://github.com/JiaRenChang/RealtimeStereo).
 ### Citation
 ```
 @inproceedings{chang2018pyramid,
@@ -37,7 +35,7 @@ Recent work has shown that depth estimation from a stereo pair of images can be 
 ### Dependencies
 
 - [Python 3.7](https://www.python.org/downloads/)
-- [PyTorch(1.4.0+)](http://pytorch.org)
+- [PyTorch(1.6.0+)](http://pytorch.org)
 - torchvision 0.5.0
 - [KITTI Stereo](http://www.cvlibs.net/datasets/kitti/eval_stereo.php)
 - [Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
